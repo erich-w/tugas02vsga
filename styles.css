@@ -1,18 +1,19 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  );
+  background: lightblue;
 }
 * {
   box-sizing: border-box;
 }
 /* Add padding to containers */
 .container {
-  padding: 16px;
+  padding: 8px 20px;
   background-color: white;
   max-width: 50%;
   max-height: min-content;
   margin: 50px auto 0px auto;
-  border-radius: 25px;
+  border-radius: 8px;
 }
 /* Full-width input fields */
 input[type="text"],
@@ -55,5 +56,27 @@ a {
 .signin {
   background-color: #f1f1f1;
   text-align: center;
+  border-radius: 0px;
+  padding: 5px 5px;
+}
+
+/* margin adjustment on heade */
+h1 {
+  margin-bottom: 5px;
+}
+p {
   margin-top: 0px;
+}
+
+/* radio style */
+.radiogroup {
+  margin-bottom: 22px;
+}
+.jkradio {
+  margin: 5px;
+}
+
+/* signin */
+p.signintext {
+  margin: 10px;
 }
